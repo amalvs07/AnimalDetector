@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gebra</string>
+
+    //Headings
+    <string name="heading_one"></string>
+    <string name="heading_two">Instant Notifications</string>
+    <string name="heading_three">Cashless Payment</string>
+    <string name="heading_fourth">Pay Anywhere</string>
+
+    //Description
+    <string name="desc_one">To identify the footprint of wild animals..</string>
+    <string name="desc_two">To notify reaching before unsafe areas...</string>
+    <string name="desc_three">To repel animals using high frequency sounds..</string>
+    <string name="desc_fourth">To get hotspot notification on the go ...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

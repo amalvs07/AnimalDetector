@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".FeedFragment">
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    >-->
+<!--    <ImageButton-->
+<!--        android:id="@+id/camera_button"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:src="@drawable/slrcamera"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginStart="150dp"-->
+<!--        android:text="Camera" />-->
+
+<!--    &lt;!&ndash; add ImageView to display the captured image &ndash;&gt;-->
+<!--    <ImageView-->
+<!--        android:id="@+id/click_image"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="450dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:layout_marginBottom="10dp" />-->
+
+<!--</LinearLayout>-->
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- add Camera Button to open the Camera -->
+
+</FrameLayout>

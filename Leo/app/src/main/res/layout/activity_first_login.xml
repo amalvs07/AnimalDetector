@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First_login">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/student_fragment_container"
+        android:background="#fff"
+        android:layout_above="@+id/bubbleNavigationStudent"/>
+    <com.example.leo.bubblenavigation.BubbleNavigationLinearView
+        android:id="@+id/bubbleNavigationStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#6D8DFF"
+        android:elevation="8dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <com.example.leo.bubblenavigation.BubbleToggleView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:bt_colorActive="#6D8DFF"
+            app:bt_colorInactive="#000000"
+            app:bt_icon="@drawable/ic_camera"
+            app:bt_title="Capture" />
+        <com.example.leo.bubblenavigation.BubbleToggleView
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:bt_colorActive="#6D8DFF"
+            app:bt_colorInactive="#000000"
+            app:bt_icon="@drawable/ic_location"
+            app:bt_title="Location" />
+        <com.example.leo.bubblenavigation.BubbleToggleView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:bt_colorActive="#6D8DFF"
+            app:bt_colorInactive="#000000"
+            app:bt_icon="@drawable/ic_speaker_phone"
+            app:bt_title="Repellent" />
+    </com.example.leo.bubblenavigation.BubbleNavigationLinearView>
+</androidx.constraintlayout.widget.ConstraintLayout>
